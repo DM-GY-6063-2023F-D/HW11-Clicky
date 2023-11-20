@@ -5,6 +5,8 @@ Example of how to use the ```Clicky``` Class to help detect button/switch clicks
 Call ```Clicky.setup(pin)``` in ```setup()``` to set the pin, and then ```Clicky.wasClicked()``` in ```loop()``` to get a boolean that tells whether the button was clicked during the loop iteration.
 
 ```
+#include "Clicky.h"
+
 Clicky mClick;
 
 void setup() {
